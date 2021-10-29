@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Simple, traffic-based pricing</h1>
+      <div class="header-details">
+        <p>Sign-up for our 30-day trial. &nbsp</p>
+        <p>No credit card required.</p>
+      </div>
+    </header>
+
+    <nav></nav>
+
+    <main>
+      <div class="container">
+        <div class="container-one">
+          <div class="rate">
+            <h1 class="card-p" id="card-p">100k Pageviews</h1>
+            <div class="rate-month">
+              <h2 id="card-value">$16.00</h2>
+              <h3 id="card-time">&nbsp/ month</h3>
+            </div>
+          </div>
+          <div class="card-selector">
+            <input
+              type="range"
+              name="slider"
+              id="slider"
+              class="slider"
+              value="2"
+              min="1"
+              max="5"
+              step="1"
+            />
+          </div>
+          <div class="billing">
+            <p>Monthly Billing</p>
+            <input
+              type="checkbox"
+              name="price-toggle"
+              id="price-toogle"
+              class="checkbox"
+              checked
+            />
+            <label for="price-toogle" class="price-toggle"></label>
+
+            <p>Yearly Billing</p>
+            <label class="discount-long discount">25% discount</label>
+            <label class="discount-short discount">-25%</label>
+          </div>
+        </div>
+        <div class="container-two">
+          <ul>
+            <li>
+              <i class="check"><img src="/images/icon-check.svg" /></i>Unlimited
+              websites
+            </li>
+            <li>
+              <i class="check"><img src="/images/icon-check.svg" /></i>100% data
+              ownership
+            </li>
+            <li>
+              <i class="check"><img src="/images/icon-check.svg" /></i>Email
+              reports
+            </li>
+          </ul>
+          <button id="btn">Start my trial</button>
+          <div id="alert-message" class="alert-message"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Mykhailo Kurtiak</a>.
+      </div>
+    </footer>
+  </body>
+</html>
