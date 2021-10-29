@@ -1,6 +1,10 @@
+# web version:
+
+https://interactive-pricing-comp-card.netlify.app
+
 # Frontend Mentor - Interactive pricing component
 
-![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)
+https://www.frontendmentor.io/challenges/interactive-pricing-component-t0m8PIyY8/hub/interactive-pricing-component-Nv1SDSp1c
 
 ## The challenge
 
